@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="button_to_convert">Click here to convert</string>
+    <string name="hint_source">Enter amount</string>
+    <string name="hint_target">Conversion result</string>
+    <string name="hint_currency">Currency</string>
+
+    <string-array name="currency_codes">
+        <item>Choose a currency</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>CHF</item>
+        <item>JPY</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>MXN</item>
+    </string-array>
+</resources>
