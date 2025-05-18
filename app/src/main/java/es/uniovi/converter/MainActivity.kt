@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
             lastSourceCurrency = mSourceCurrency
             lastTargetCurrency = mTargetCurrency
 
-            val url = "https://apilayer.net/api/live?access_key=01b0d505abf15c6aa6c7cb43d6be0b61&currencies=$mTargetCurrency&source=$mSourceCurrency&format=1"
+            val url = "https://apilayer.net/api/live?access_key=?&currencies=$mTargetCurrency&source=$mSourceCurrency&format=1"
             Log.d("CURRENCY_URL", url)
             UpdateRateTask(this@MainActivity, mSourceCurrency, mTargetCurrency).execute(url)
         }
